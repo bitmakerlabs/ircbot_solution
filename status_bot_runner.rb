@@ -1,5 +1,5 @@
 require_relative "status_bot.rb"
 
-StatusBot.announce "Initializing"
+StatusBot.log "Initializing", important: true
 
 puts StatusBot.new().run!
